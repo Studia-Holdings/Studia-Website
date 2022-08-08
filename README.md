@@ -1,5 +1,6 @@
-# Studia Website
-Studia Holdings's official website repository
+# Studia Website - Studia Holdings's official website repository
+
+___Currently a work in progress___
 
 ## About
 Studia Holdings is an organization dedicated to helping students create effective study skills. <br>
