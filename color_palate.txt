@@ -1,0 +1,23 @@
+/* CSV */
+2e382e,45cb85,72a1e5,f4989c,94ecbe
+
+/* With # */
+#2e382e, #45cb85, #72a1e5, #f4989c, #94ecbe
+
+/* Array */
+["2e382e","45cb85","72a1e5","f4989c","94ecbe"]
+
+/* Object */
+{"Pine Tree":"2e382e","Emerald":"45cb85","Little Boy Blue":"72a1e5","Salmon Pink":"f4989c","Magic Mint":"94ecbe"}
+
+/* Extended Array */
+[{"name":"Pine Tree","hex":"2e382e","rgb":[46,56,46],"cmyk":[18,0,18,78],"hsb":[120,18,22],"hsl":[120,10,20],"lab":[22,-7,5]},{"name":"Emerald","hex":"45cb85","rgb":[69,203,133],"cmyk":[66,0,34,20],"hsb":[149,66,80],"hsl":[149,56,53],"lab":[73,-52,25]},{"name":"Little Boy Blue","hex":"72a1e5","rgb":[114,161,229],"cmyk":[50,30,0,10],"hsb":[215,50,90],"hsl":[215,69,67],"lab":[66,3,-39]},{"name":"Salmon Pink","hex":"f4989c","rgb":[244,152,156],"cmyk":[0,38,36,4],"hsb":[357,38,96],"hsl":[357,81,78],"lab":[72,35,13]},{"name":"Magic Mint","hex":"94ecbe","rgb":[148,236,190],"cmyk":[37,0,19,7],"hsb":[149,37,93],"hsl":[149,70,75],"lab":[87,-36,14]}]
+
+/* XML */
+<palette>
+  <color name="Pine Tree" hex="2e382e" r="46" g="56" b="46" />
+  <color name="Emerald" hex="45cb85" r="69" g="203" b="133" />
+  <color name="Little Boy Blue" hex="72a1e5" r="114" g="161" b="229" />
+  <color name="Salmon Pink" hex="f4989c" r="244" g="152" b="156" />
+  <color name="Magic Mint" hex="94ecbe" r="148" g="236" b="190" />
+</palette>
