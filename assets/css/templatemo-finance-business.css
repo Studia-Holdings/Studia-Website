@@ -15,7 +15,7 @@ Highlight Color - #a4c639
 Black Text Color - #1e1e1e
 #666
 #000
-#f7f7f7
+Also a background-color: #f7f7f7
 #eee
 #6a6a6a
 #aaa
@@ -602,7 +602,7 @@ ul.slick-dots {
 }
 
 .service-item .down-content {
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	padding: 30px;
 }
 
@@ -695,7 +695,7 @@ ul.slick-dots {
 }
 
 .more-info .more-info-content {
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 }
 
 .about-info .more-info-content {
@@ -744,7 +744,7 @@ ul.slick-dots {
 
 .testimonials {
 	margin-top: 140px;
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	padding: 140px 0px;
 }
 .testimonial-item .inner-content {
@@ -788,7 +788,7 @@ ul.slick-dots {
 }
 
 .contact-us {
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	padding: 140px 0px;
 }
 
@@ -913,7 +913,7 @@ ul.slick-dots {
 
 .partners {
 	margin-top: 140px;
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	padding: 60px 0px;
 }
 
@@ -1124,7 +1124,7 @@ footer .contact-form button.filled-button:hover {
 /* team */
 
 .team {
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	margin-top: 140px;
 	margin-bottom: -140px;
 	padding: 120px 0px;
@@ -1239,7 +1239,7 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item {
 	padding: 60px 30px;
-	background-color: #f7f7f7;
+	background-color: var(--main-background);
 	text-align: center;
 }
 
