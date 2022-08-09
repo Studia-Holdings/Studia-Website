@@ -14,7 +14,6 @@ https://templatemo.com/tm-545-finance-business
 
 
 body {
-  background-color: var(--blue);
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -24,7 +23,7 @@ body {
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
-	color: #666666;
+	color: var(--blue); 
 	line-height: 30px;
 }
 a {
@@ -42,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a.filled-button {
 	background-color: #a4c639;
-	color: #fff;
+	color: var(--blue);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -53,14 +52,14 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #a4c639;
 }
 
 a.border-button {
 	background-color: transparent;
-	color: #fff;
-	border: 2px solid #fff;
+	color: var(--blue);
+	border: 2px solid var(--blue);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -71,7 +70,7 @@ a.border-button {
 }
 
 a.border-button:hover {
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #a4c639;
 }
 
@@ -109,7 +108,7 @@ a.border-button:hover {
   bottom: 0;
   position: fixed;
   z-index: 9999999;
-  color: #fff;
+  color: var(--blue);
 }
 
 #preloader .jumper {
@@ -125,7 +124,7 @@ a.border-button:hover {
 }
 
 #preloader .jumper > div {
-  background-color: #fff;
+  background-color: var(--blue);
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -206,7 +205,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li a {
-	color: #fff;
+	color: var(--blue);
 	font-size: 14px;
 	font-weight: 600;
 }
@@ -228,7 +227,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.right-icons li a {
-	color: #fff;
+	color: var(--blue);
 	transition: all 0.3s;
 }
 
@@ -252,7 +251,6 @@ header {
 }
 header .navbar {
 	padding: 20px 0px;
-	background-color: var(--blue);
 }
 .background-header .navbar {
 	padding: 10px 0px;
@@ -260,7 +258,7 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: #fff!important;
+	background-color: var(--blue)!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
@@ -282,7 +280,7 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #fff;
+	color: var(--blue);
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -309,7 +307,7 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: var(--blue);
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -325,8 +323,8 @@ header .navbar {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: #fff;
-	background-color: #fff;	
+	border-color: var(--blue);
+	background-color: var(--blue);	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -416,7 +414,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:#FFF;
+  color:var(--blue);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -435,7 +433,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:#FFF;
+  color:var(--blue);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -474,14 +472,14 @@ ul.slick-dots {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color:#FFF;
+  color:var(--blue);
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
 
 .Modern-Slider .item p {
 	max-width: 570px;
-	color: #fff;
+	color: var(--blue);
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 30px;
@@ -533,7 +531,7 @@ ul.slick-dots {
 .request-form {
 	background-color: #a4c639;
 	padding: 40px 0px;
-	color: #fff;
+	color: var(--blue);
 }
 
 .request-form h4 {
@@ -595,13 +593,13 @@ ul.slick-dots {
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 140px 0px;
-	color: #fff;
+	color: var(--blue);
 }
 
 .fun-facts span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #fff;
+	color: var(--blue);
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
@@ -619,7 +617,7 @@ ul.slick-dots {
 }
 
 .fun-facts p {
-	color: #fff;
+	color: var(--blue);
 	margin-bottom: 40px;
 }
 
@@ -643,7 +641,7 @@ ul.slick-dots {
 .count-title {
     font-size: 20px;
     font-weight: 600;
-    color: #fff;
+    color: var(--blue);
     letter-spacing: 0.5px;
 }
 
@@ -715,7 +713,7 @@ ul.slick-dots {
 }
 .testimonial-item .inner-content {
 	text-align: center;
-	background-color: #fff;	
+	background-color: var(--blue);	
 	padding: 30px;
 	border-radius: 5px;
 }
@@ -827,8 +825,8 @@ ul.slick-dots {
 
 .callback-form .contact-form button.border-button {
 	background-color: transparent;
-	color: #fff;
-	border: 2px solid #fff;
+	color: var(--blue);
+	border: 2px solid var(--blue);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -843,13 +841,13 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form button.border-button:hover {
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #a4c639;
 }
 
 .contact-us .contact-form button.filled-button {
 	background-color: #a4c639;
-	color: #fff;
+	color: var(--blue);
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -865,7 +863,7 @@ ul.slick-dots {
 }
 
 .contact-us .contact-form button.filled-button:hover {
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #a4c639;
 }
 
@@ -900,18 +898,18 @@ ul.slick-dots {
 footer {
 	background-color: #232323;
 	padding: 80px 0px;
-	color: #fff;
+	color: var(--blue);
 }
 
 footer h4 {
-	color: #fff;
+	color: var(--blue);
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
 	margin-bottom: 35px;
 }
 footer p {
-	color: #fff;
+	color: var(--blue);
 }
 
 footer ul.social-icons {
@@ -933,7 +931,7 @@ footer ul.social-icons li a {
 	display: inline-block;
 	line-height: 34px;
 	text-align: center;
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #232323;
 	border-radius: 50%;
 	transition: all 0.3s;
@@ -953,7 +951,7 @@ footer ul.menu-list li:last-child {
 
 footer ul.menu-list li a {
 	font-size: 14px;
-	color: #fff;
+	color: var(--blue);
 	transition: all 0.3s;
 }
 
@@ -1018,7 +1016,7 @@ footer .contact-form ::placeholder {
 
 footer .contact-form button.filled-button {
 	background-color: transparent;
-	color: #fff;
+	color: var(--blue);
 	background-color: #a4c639;
 	border: none;
 	font-size: 13px;
@@ -1035,7 +1033,7 @@ footer .contact-form button.filled-button {
 }
 
 footer .contact-form button.filled-button:hover {
-	background-color: #fff;
+	background-color: var(--blue);
 	color: #a4c639;
 }
 
@@ -1050,13 +1048,13 @@ footer .contact-form button.filled-button:hover {
 }
 
 .sub-footer p {
-	color: #fff;
+	color: var(--blue);
 	font-weight: 300;
 	letter-spacing: 0.5px;
 }
 
 .sub-footer a {
-	color: #fff;
+	color: var(--blue);
 }
 
 
@@ -1067,7 +1065,7 @@ footer .contact-form button.filled-button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
-	color: #fff;
+	color: var(--blue);
 }
 
 .page-heading h1 {
@@ -1082,7 +1080,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #fff;
+	color: var(--blue);
 	display: block;
 }
 
@@ -1102,7 +1100,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content {
-	background-color: #fff;
+	background-color: var(--blue);
 	padding: 30px;
 }
 
@@ -1167,7 +1165,7 @@ footer .contact-form button.filled-button:hover {
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-  color: #fff;
+  color: var(--blue);
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
@@ -1324,7 +1322,7 @@ footer .contact-form button.filled-button:hover {
 	    left: 0;
 	    width: 100%;
 	    text-align: center;
-	    background-color: #fff;
+	    background-color: var(--blue);
 	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	}
 	.navbar .navbar-nav .nav-item {
