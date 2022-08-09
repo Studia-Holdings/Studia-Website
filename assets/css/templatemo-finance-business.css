@@ -50,11 +50,13 @@ Form Boxes Color - #343434
 
 
 body {
+  background-color: var(--main-background);
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 p {
 	margin-bottom: 0px;
@@ -593,6 +595,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
+	background-color: var(--main-background);
 	margin-top: 140px;
 }
 
@@ -686,6 +689,7 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
+	background-color: var(--alt-background);
 	margin-top: 140px;
 }
 
@@ -754,7 +758,7 @@ ul.slick-dots {
 	border-radius: 5px;
 }
 .testimonial-item p {
-	color: var(--alt-text);
+	color: var(--main-text);
 	font-size: 14px;
 	font-weight: 400;
 }
