@@ -252,6 +252,7 @@ header {
 }
 header .navbar {
 	padding: 20px 0px;
+	background-color: var(--blue);
 }
 .background-header .navbar {
 	padding: 10px 0px;
