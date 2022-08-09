@@ -144,7 +144,7 @@ a.border-button:hover {
   bottom: 0;
   position: fixed;
   z-index: 9999999;
-  color: #fff;
+  color: var(--main-background);
 }
 
 #preloader .jumper {
@@ -160,7 +160,7 @@ a.border-button:hover {
 }
 
 #preloader .jumper > div {
-  background-color: #fff;
+  background-color: var(--main-background);
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -1084,13 +1084,13 @@ footer .contact-form button.filled-button:hover {
 }
 
 .sub-footer p {
-	color: #fff;
+	color: var(--alt-text);
 	font-weight: 300;
 	letter-spacing: 0.5px;
 }
 
 .sub-footer a {
-	color: #fff;
+	color: var(--alt-text);
 }
 
 
@@ -1101,7 +1101,7 @@ footer .contact-form button.filled-button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
-	color: #fff;
+	color: var(--main-background);
 }
 
 .page-heading h1 {
@@ -1116,7 +1116,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #fff;
+	color: var(--main-background);
 	display: block;
 }
 
@@ -1136,7 +1136,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content {
-	background-color: #fff;
+	background-color: var(--main-background);
 	padding: 30px;
 }
 
@@ -1201,7 +1201,7 @@ footer .contact-form button.filled-button:hover {
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-  color: #fff;
+  color: var(--alt-text);
 }
 #tabs ul .ui-tabs-active span {
   color: var(--main-text);
@@ -1358,7 +1358,7 @@ footer .contact-form button.filled-button:hover {
 	    left: 0;
 	    width: 100%;
 	    text-align: center;
-	    background-color: #fff;
+	    background-color: var(--main-background);
 	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	}
 	.navbar .navbar-nav .nav-item {
