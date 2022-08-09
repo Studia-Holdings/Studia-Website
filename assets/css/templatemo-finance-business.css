@@ -3,6 +3,31 @@ TemplateMo - Finance Business
 https://templatemo.com/tm-545-finance-business
 */
 
+/* Original colors */
+/*
+#2E382E
+#45CB85
+#72A1E5
+#f4989c
+#94ecbe
+White Text Color  + Header - #fff
+Highlight Color - #a4c639
+Black Text Color - #1e1e1e
+#666
+#000
+#f7f7f7
+#eee
+#6a6a6a
+#aaa
+Footer Color - #232323
+Form Boxes Color - #343434
+#121212
+#faf5b2
+#7a7a7a 
+*/
+
+
+
 /* Defining the colors as variables*/
 :root { 
  --pine: #2E382E;
@@ -10,6 +35,17 @@ https://templatemo.com/tm-545-finance-business
  --blue: #72A1E5;
  --salmon: #f4989c;
  --mint: #94ecbe;
+
+ --emphasis: var(--salmon);
+ --main-text: var(--pine);
+ --alt-text: var(--mint);
+
+ --main-background: var(--blue);
+ --alt-background: var(--salmon);
+
+ --header: var(--blue);
+ --footer: var(--pine);
+;
 }
 
 
@@ -23,7 +59,7 @@ body {
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
-	color: var(--blue); 
+	color: var(--alt-text); 
 	line-height: 30px;
 }
 a {
@@ -40,8 +76,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
-	color: var(--blue);
+	background-color: var(--emphasis);
+	color: var(--alt-text);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -52,14 +88,14 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: var(--blue);
-	color: #a4c639;
+	background-color: var(--alt-text);
+	color: var(--emphasis);
 }
 
 a.border-button {
 	background-color: transparent;
-	color: var(--blue);
-	border: 2px solid var(--blue);
+	color: var(--alt-text);
+	border: 2px solid var(--alt-text);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -70,8 +106,8 @@ a.border-button {
 }
 
 a.border-button:hover {
-	background-color: var(--blue);
-	color: #a4c639;
+	background-color: var(--alt-text);
+	color: var(--emphasis);
 }
 
 .section-heading {
@@ -82,12 +118,12 @@ a.border-button:hover {
 .section-heading h2 {
 	font-size: 36px;
 	font-weight: 600;
-	color: #1e1e1e;
+	color: var(--main-text);
 }
 
 .section-heading em {
 	font-style: normal;
-	color: #a4c639;
+	color: var(--emphasis);
 }
 
 .section-heading span {
@@ -101,14 +137,14 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #a4c639;
+  background: var(--emphasis);
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   position: fixed;
   z-index: 9999999;
-  color: var(--blue);
+  color: #fff;
 }
 
 #preloader .jumper {
@@ -124,7 +160,7 @@ a.border-button:hover {
 }
 
 #preloader .jumper > div {
-  background-color: var(--blue);
+  background-color: #fff;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -181,7 +217,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #a4c639;
+	background-color: var(--emphasis);
 	height: 46px;
 	line-height: 46px;
 }
@@ -205,7 +241,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li a {
-	color: var(--blue);
+	color: var(--header);
 	font-size: 14px;
 	font-weight: 600;
 }
@@ -227,7 +263,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.right-icons li a {
-	color: var(--blue);
+	color: var(--header);
 	transition: all 0.3s;
 }
 
@@ -258,21 +294,21 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: var(--blue)!important;
+	background-color: var(--header)!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #a4c639!important;
+	color: var(--emphasis)!important;
 }
 .background-header .navbar-nav a.nav-link {
-	color: #1e1e1e!important;
+	color: var(--main-text)!important;
 }
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #a4c639!important;
+	color: var(--emphasis)!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -280,7 +316,7 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: var(--blue);
+	color: var(--alt-text);
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -307,7 +343,7 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: var(--blue);
+	color: var(--header);
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -316,15 +352,15 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: var(--emphasis);
+	border-bottom: 3px solid var(--emphasis);
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: var(--blue);
-	background-color: var(--blue);	
+	border-color: var(--header);
+	background-color: var(--header);	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -334,7 +370,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #a4c639;
+	color: var(--emphasis);
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -414,7 +450,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:var(--blue);
+  color:var(--header);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -433,7 +469,7 @@ header .navbar {
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
-  color:var(--blue);
+  color:var(--header);
   z-index:5;
   outline: none;
   cursor: pointer;
@@ -462,7 +498,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#a4c639;
+  color:var(--emphasis);
   animation:fadeOutRight 1s both;
 }
 
@@ -472,14 +508,14 @@ ul.slick-dots {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color:var(--blue);
+  color:var(--header);
   overflow:hidden;
   animation:fadeOutLeft 1s both;
 }
 
 .Modern-Slider .item p {
 	max-width: 570px;
-	color: var(--blue);
+	color: var(--header);
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 30px;
@@ -529,9 +565,9 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #a4c639;
+	background-color: var(--emphasis);
 	padding: 40px 0px;
-	color: var(--blue);
+	color: var(--header);
 }
 
 .request-form h4 {
@@ -593,13 +629,13 @@ ul.slick-dots {
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 140px 0px;
-	color: var(--blue);
+	color: var(--alt-text);
 }
 
 .fun-facts span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: var(--blue);
+	color: var(--alt-text);
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
@@ -613,11 +649,11 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #a4c639;
+	color: var(--emphasis);
 }
 
 .fun-facts p {
-	color: var(--blue);
+	color: var(--alt-text);
 	margin-bottom: 40px;
 }
 
@@ -634,14 +670,14 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: #a4c639;
+    color: var(--emphasis);
     font-weight: 700;
     font-size: 36px;
 }
 .count-title {
     font-size: 20px;
     font-weight: 600;
-    color: var(--blue);
+    color: var(--alt-text);
     letter-spacing: 0.5px;
 }
 
@@ -692,7 +728,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #a4c639;
+	color: var(--emphasis);
 }
 
 .more-info .right-content p {
@@ -713,7 +749,7 @@ ul.slick-dots {
 }
 .testimonial-item .inner-content {
 	text-align: center;
-	background-color: var(--blue);	
+	background-color: var(--alt-text);	
 	padding: 30px;
 	border-radius: 5px;
 }
@@ -724,7 +760,7 @@ ul.slick-dots {
 .testimonial-item h4 {
 	font-size: 19px;
 	font-weight: 700;
-	color: #1e1e1e;
+	color: var(--main-text);
 	letter-spacing: 0.5px;
 	margin-bottom: 0px;
 }
@@ -733,7 +769,7 @@ ul.slick-dots {
 	margin-top: 8px;
 	font-weight: 600;
 	font-size: 14px;
-	color: #a4c639;
+	color: var(--emphasis);
 }
 .testimonial-item img {
 	max-width: 60px;
@@ -766,7 +802,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #a4c639;
+	background-color: var(--emphasis);
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -825,8 +861,8 @@ ul.slick-dots {
 
 .callback-form .contact-form button.border-button {
 	background-color: transparent;
-	color: var(--blue);
-	border: 2px solid var(--blue);
+	color: var(--alt-text);
+	border: 2px solid var(--alt-text);
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -841,13 +877,13 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form button.border-button:hover {
-	background-color: var(--blue);
-	color: #a4c639;
+	background-color: var(--alt-text);
+	color: var(--emphasis);
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #a4c639;
-	color: var(--blue);
+	background-color: var(--emphasis);
+	color: var(--alt-text);
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -863,8 +899,8 @@ ul.slick-dots {
 }
 
 .contact-us .contact-form button.filled-button:hover {
-	background-color: var(--blue);
-	color: #a4c639;
+	background-color: var(--alt-text);
+	color: var(--emphasis);
 }
 
 
@@ -896,20 +932,20 @@ ul.slick-dots {
 /* Footer Style */
 
 footer {
-	background-color: #232323;
+	background-color: var(--footer);
 	padding: 80px 0px;
-	color: var(--blue);
+	color: var(--alt-text);
 }
 
 footer h4 {
-	color: var(--blue);
+	color: var(--alt-text);
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.25px;
 	margin-bottom: 35px;
 }
 footer p {
-	color: var(--blue);
+	color: var(--alt-text);
 }
 
 footer ul.social-icons {
@@ -931,14 +967,14 @@ footer ul.social-icons li a {
 	display: inline-block;
 	line-height: 34px;
 	text-align: center;
-	background-color: var(--blue);
-	color: #232323;
+	background-color: var(--alt-text);
+	color: var(--footer);
 	border-radius: 50%;
 	transition: all 0.3s;
 }
 
 footer ul.social-icons li a:hover {
-	background-color: #a4c639;
+	background-color: var(--emphasis);
 }
 
 footer ul.menu-list li {
@@ -951,12 +987,12 @@ footer ul.menu-list li:last-child {
 
 footer ul.menu-list li a {
 	font-size: 14px;
-	color: var(--blue);
+	color: var(--alt-text);
 	transition: all 0.3s;
 }
 
 footer ul.menu-list li a:hover {
-	color: #a4c639;
+	color: var(--emphasis);
 }
 
 footer .contact-form input {
@@ -1016,8 +1052,8 @@ footer .contact-form ::placeholder {
 
 footer .contact-form button.filled-button {
 	background-color: transparent;
-	color: var(--blue);
-	background-color: #a4c639;
+	color: var(--alt-text);
+	background-color: var(--emphasis);
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1033,8 +1069,8 @@ footer .contact-form button.filled-button {
 }
 
 footer .contact-form button.filled-button:hover {
-	background-color: var(--blue);
-	color: #a4c639;
+	background-color: var(--alt-text);
+	color: var(--emphasis);
 }
 
 
@@ -1048,13 +1084,13 @@ footer .contact-form button.filled-button:hover {
 }
 
 .sub-footer p {
-	color: var(--blue);
+	color: #fff;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 }
 
 .sub-footer a {
-	color: var(--blue);
+	color: #fff;
 }
 
 
@@ -1065,7 +1101,7 @@ footer .contact-form button.filled-button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
-	color: var(--blue);
+	color: #fff;
 }
 
 .page-heading h1 {
@@ -1080,7 +1116,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: var(--blue);
+	color: #fff;
 	display: block;
 }
 
@@ -1100,7 +1136,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content {
-	background-color: var(--blue);
+	background-color: #fff;
 	padding: 30px;
 }
 
@@ -1112,7 +1148,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content span {
-	color: #a4c639;
+	color: var(--emphasis);
 	font-weight: 600;
 	font-size: 14px;
 	display: block;
@@ -1147,7 +1183,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #a4c639;
+	background-color: var(--emphasis);
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1165,10 +1201,10 @@ footer .contact-form button.filled-button:hover {
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-  color: var(--blue);
+  color: #fff;
 }
 #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
+  color: var(--main-text);
 }
 .tabs-content {
 	margin-left: 30px;
@@ -1208,7 +1244,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #a4c639;
+	color: var(--emphasis);
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -1226,7 +1262,7 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #a4c639;
+	color: var(--emphasis);
 	font-size: 15px;
 }
 
@@ -1322,7 +1358,7 @@ footer .contact-form button.filled-button:hover {
 	    left: 0;
 	    width: 100%;
 	    text-align: center;
-	    background-color: var(--blue);
+	    background-color: #fff;
 	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	}
 	.navbar .navbar-nav .nav-item {
@@ -1333,14 +1369,14 @@ footer .contact-form button.filled-button:hover {
 	}
 	.navbar .navbar-nav a.nav-link {
 		padding: 15px 0px;
-		color: #1e1e1e!important;
+		color: var(--main-text)!important;
 	}
 	.navbar .navbar-nav .nav-link:hover,
 	.navbar .navbar-nav .active>.nav-link,
 	.navbar .navbar-nav .nav-link.current,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #a4c639!important;
+		color: var(--emphasis)!important;
 		border-bottom: none!important;
 	}
 }
