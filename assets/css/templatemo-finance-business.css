@@ -1,10 +1,14 @@
 /* 
-
 TemplateMo - Finance Business
-
 https://templatemo.com/tm-545-finance-business
-
 */
+
+/* Defining the colors as variables*/
+--pine: #2E382E;
+--emerald: #45CB85;
+--blue: #72A1E5;
+--salmon: #f4989c;
+--mint: #94ecbe;
 
 body {
   font-family: 'Poppins', sans-serif;
