@@ -1,6 +1,6 @@
 # Studia Website - Studia Holdings's official website repository
 
-___Currently a work in progress___
+___Currently in alpha development___
 
 ## About
 Studia Holdings is an organization dedicated to helping students create effective study and planning skills. <br>
