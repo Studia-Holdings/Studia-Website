@@ -1078,7 +1078,7 @@ footer .contact-form button.filled-button:hover {
 /* Sub-footer Style */
 
 .sub-footer {
-	background-color: #343434;
+	background-color: var(--alt-background);
 	text-align: center;
 	padding: 25px 0px;
 }
