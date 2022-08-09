@@ -754,6 +754,7 @@ ul.slick-dots {
 	border-radius: 5px;
 }
 .testimonial-item p {
+	color: var(--alt-text);
 	font-size: 14px;
 	font-weight: 400;
 }
