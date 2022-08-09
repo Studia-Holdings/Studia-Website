@@ -5,22 +5,17 @@ https://templatemo.com/tm-545-finance-business
 
 /* Original colors */
 /*
-#2E382E
-#45CB85
-#72A1E5
-#f4989c
-#94ecbe
-White Text Color  + Header - #fff
-Highlight Color - #a4c639
-Black Text Color - #1e1e1e
-#666
-#000
-Also a background-color: #f7f7f7
+White Text Color  + Header - #fff ---- FINISHED
+Highlight Color - #a4c639 ---- FINISHED
+Black Text Color - #1e1e1e #1e1e1e
+#666 ---- FINISHED
+#000 ---- FINISHED
+Also a background-color: #f7f7f7 ---- FINISHED
 #eee
-#6a6a6a
+#6a6a6a ---- FINISHED
 #aaa
-Footer Color - #232323
-Form Boxes Color - #343434
+Footer Color - #232323 ---- FINISHED
+Form Boxes Color - #343434 ---- FINISHED
 #121212
 #faf5b2
 #7a7a7a 
@@ -39,12 +34,15 @@ Form Boxes Color - #343434
  --emphasis: var(--salmon);
  --main-text: var(--pine);
  --alt-text: var(--mint);
+ --dark-text: var(--pine);
 
  --main-background: var(--blue);
  --alt-background: var(--salmon);
 
  --header: var(--blue);
  --footer: var(--pine);
+ --footer-boxes: var(--emerald);
+ --form-color: var(--emerald);
 ;
 }
 
@@ -132,7 +130,7 @@ a.border-button:hover {
 	margin-top: 15px;
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #666;
+	color: var(--dark-text);
 	letter-spacing: 1px;
 }
 
@@ -543,7 +541,9 @@ ul.slick-dots {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+.Modern-Slider {
+	background: var(--dark-text);
+}
 
 
 /* ==== Slick Slider Css Ruls === */
@@ -717,13 +717,14 @@ ul.slick-dots {
 .more-info .right-content span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #666;
+	color: var(--dark-text);
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
 }
 
 .more-info .right-content h2 {
+	color: var(--dark-text);
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 35px;
@@ -813,12 +814,13 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form input {
+	background-color: var(--form-color);
 	border-radius: 20px;
 	height: 40px;
 	line-height: 40px;
 	display: inline-block;
 	padding: 0px 15px;
-	color: #6a6a6a;
+	color: var(--dark-text);
 	font-size: 13px;
 	text-transform: none;
 	box-shadow: none;
@@ -833,13 +835,14 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form textarea {
+	background-color: var(--form-color);
 	border-radius: 20px;
 	height: 120px;
 	max-height: 200px;
 	min-height: 120px;
 	display: inline-block;
 	padding: 15px;
-	color: #6a6a6a;
+	color: var(--dark-text);
 	font-size: 13px;
 	text-transform: none;
 	box-shadow: none;
@@ -1006,7 +1009,7 @@ footer .contact-form input {
 	display: inline-block;
 	padding: 0px 15px;
 	color: #aaa!important;
-	background-color: #343434;
+	background-color: var(--emerald);
 	font-size: 13px;
 	text-transform: none;
 	box-shadow: none;
@@ -1018,7 +1021,7 @@ footer .contact-form input:focus {
 	outline: none;
 	box-shadow: none;
 	border: none;
-	background-color: #343434;
+	background-color: var(--emerald);
 }
 
 footer .contact-form textarea {
@@ -1029,7 +1032,7 @@ footer .contact-form textarea {
 	display: inline-block;
 	padding: 15px;
 	color: #aaa!important;
-	background-color: #343434;
+	background-color: var(--emerald);
 	font-size: 13px;
 	text-transform: none;
 	box-shadow: none;
@@ -1041,7 +1044,7 @@ footer .contact-form textarea:focus {
 	outline: none;
 	box-shadow: none;
 	border: none;
-	background-color: #343434;
+	background-color: var(--emerald);
 }
 
 footer .contact-form ::-webkit-input-placeholder { /* Edge */
@@ -1189,7 +1192,7 @@ footer .contact-form button.filled-button:hover {
 	display: inline-block;
 	background-color: var(--emphasis);
   	font-size: 20px;
-  	color: #121212;
+  	color: var(--main-text);
   	letter-spacing: 0.5px;
   	font-weight: 700;
   	transition: all 0.3s;
@@ -1229,7 +1232,7 @@ footer .contact-form button.filled-button:hover {
 }
 .tabs-content p {
   font-size: 14px;
-  color: #7a7a7a;
+  color: var(--dark-text);
   margin-bottom: 0px;
 }
 
@@ -1320,7 +1323,7 @@ footer .contact-form button.filled-button:hover {
 		padding: 80px 0px 20px 0px;
 	}
 	footer .footer-item {
-		border-bottom: 1px solid #343434;
+		border-bottom: 1px solid var(--emerald);
 		margin-bottom: 30px;
 		padding-bottom: 30px;
 	}
