@@ -7,5 +7,3 @@ Studia Holdings is an organization dedicated to helping students create effectiv
 _Founded by Trishay Naman, Pranav Kulkarni, Ethan Rebello, and Advay Vyas._
 
 ### Located at https://studia-holdings.github.io/Studia-Website/
-
-Template from https://templatemo.com/tm-545-finance-business
